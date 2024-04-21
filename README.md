@@ -161,5 +161,10 @@ except ValueError as error:
     print(error)                # El problema habla de caracteres en general (strings), por lo que el usuario 
                                     # no debería causar un error con su entrada, igual en caso de algo se presenta cualquier error inprevisto.
 ```
+---------------------------------------------------------------------------
+# Segundo Punto
+En este segundo punto debemos tener en cuenta los dos casos del paqute Shape:
 
+---------------------------------------------------------------------------
+__Caso 1__:
 
