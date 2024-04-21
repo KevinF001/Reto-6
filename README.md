@@ -6,7 +6,7 @@ __2__. En el paquete Shape, identifica al menos los casos donde se necesitan exc
 
 
 ------------------------------------------------------------------------------
-# Prime punto
+# Primer punto
 En este caso se deben cuenta los requisitos establecidos para la solución de estos 5 problemas:
 <br>
 1. Crear una función que realice operaciones básicas (suma, resta, multiplicación, división) entre dos números, según la elección del usuario, la forma de entrada de la función será los dos y el caracter usado para la operación. entrada: (1,2,"+"), salida (3).
