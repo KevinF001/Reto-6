@@ -40,7 +40,7 @@ def operacion(entrada):
 try:
     entrada = input("Ingrese sus dos valores a operar y el símbolo de la operación, separados por comas: ").split(',')
     
-    if len(entrada) != 3:       # Sólo se pueden solicitar 3 datos segun el problema.
+    if len(entrada) != 3:       # Sólo se pueden solicitar 3 datos según el problema.
         raise ValueError("Error: solo puede ingresar dos valores y un símbolo de operación separados por comas.")
     
     if entrada[2].strip() not in ['+', '-', '*', '/']:      # Sólo hay 4 operaciones permitidas.
@@ -163,7 +163,7 @@ except ValueError as error:
 ```
 ---------------------------------------------------------------------------
 # Segundo Punto
-En este segundo punto pese a haber dos casos las excepciones son las mismas en ambos casos, pues lo que cambia es solamente la estructura de los paquetes, por esto se puede solo cambiar uno:
+En este segundo punto pese a haber dos casos las excepciones son las mismas en ambos casos, pues lo que cambia es solamente la estructura de los paquetes; por esto, se puede solo cambiar uno:
 
 ---------------------------------------------------------------------------
 __Caso 1__: 
